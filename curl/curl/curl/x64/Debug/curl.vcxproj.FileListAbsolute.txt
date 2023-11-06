@@ -1,0 +1,1 @@
+E:\repos\my_code\curl\curl\curl\x64\Debug\curl.vcxproj.CopyComplete
