@@ -17,7 +17,7 @@ int main() {
     curl = curl_easy_init();
     if (curl) {
         // Set the URL you want to request
-        curl_easy_setopt(curl, CURLOPT_URL, "https://api.dictionaryapi.dev/api/v2/entries/en/helloo");
+        curl_easy_setopt(curl, CURLOPT_URL, "https://api.dictionaryapi.dev/api/v2/entries/en/<word>");
 
         // Set the callback function to handle the response
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
